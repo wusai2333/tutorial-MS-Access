@@ -5,7 +5,7 @@
 <!--   Swap order of First_Name, Last_Name -->
 <!--   Add empty Remark                    -->
 <!--   Add Magazine, omit closing tag      -->
-
+<!-- DTD -->
 <!DOCTYPE Bookstore [
    <!ELEMENT Bookstore (Book | Magazine)*>
    <!ELEMENT Book (Title, Authors, Remark?)>
