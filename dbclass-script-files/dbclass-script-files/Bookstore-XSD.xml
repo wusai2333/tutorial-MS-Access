@@ -21,7 +21,7 @@
          <Auth authIdent="JU" />
          <Auth authIdent="JW" />
       </Authors>
-   </Book>
+   </Book>`
    <Book ISBN="ISBN-0-13-815504-6" Price="85">
       <Title>Database Systems: The Complete Book</Title>
       <Authors>

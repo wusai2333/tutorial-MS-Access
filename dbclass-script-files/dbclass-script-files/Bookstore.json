@@ -1,28 +1,35 @@
-{ "Books":
-  [
-    { "ISBN":"ISBN-0-13-713526-2",
-      "Price":85,
-      "Edition":3,
-      "Title":"A First Course in Database Systems",
-      "Authors":[ {"First_Name":"Jeffrey", "Last_Name":"Ullman"},
-                  {"First_Name":"Jennifer", "Last_Name":"Widom"} ] }
-    ,
-    { "ISBN":"ISBN-0-13-815504-6",
-      "Price":100,
-      "Remark":"Buy this book bundled with 'A First Course' - a great deal!",
-      "Title":"Database Systems:The Complete Book",
-      "Authors":[ {"First_Name":"Hector", "Last_Name":"Garcia-Molina"},
-                  {"First_Name":"Jeffrey", "Last_Name":"Ullman"},
-                  {"First_Name":"Jennifer", "Last_Name":"Widom"} ] }
-  ],
-  "Magazines":
-  [
-    { "Title":"National Geographic",
-      "Month":"January",
-      "Year":2009 }
-    ,
-    { "Title":"Newsweek",
-      "Month":"February",
-      "Year":2009 }
-  ]
+{
+    "Books": [{
+            "ISBN": "ISBN-0-13-713526-2",
+            "Price": 85,
+            "Edition": 3,
+            "Title": "A First Course in Database Systems",
+            "Authors": [{ "First_Name": "Jeffrey", "Last_Name": "Ullman" },
+                // A string instead of a composite object is also valid in json.
+                { "First_Name": "Jennifer", "Last_Name": "Widom" }
+            ]
+        },
+        {
+            "ISBN": "ISBN-0-13-815504-6",
+            "Price": 100,
+            "Remark": "Buy this book bundled with 'A First Course' - a great deal!",
+            "Title": "Database Systems:The Complete Book",
+            "Authors": [{ "First_Name": "Hector", "Last_Name": "Garcia-Molina" },
+                { "First_Name": "Jeffrey", "Last_Name": "Ullman" },
+                { "First_Name": "Jennifer", "Last_Name": "Widom" }
+            ]
+        } // Arrays can be empty
+    ],
+    "Magazines": [{
+            "Title": "National Geographic",
+            "Month": "January",
+            "Year": 2009
+                // object can be empty
+        },
+        {
+            "Title": "Newsweek",
+            "Month": "February",
+            "Year": 2009
+        }
+    ]
 }
